@@ -7,8 +7,11 @@
 String Variable = "";
 bool Estado_Led=false;
 //Motores
-const byte MotorA[]={26,25};
-const byte MotorB[]={27,12};
+const byte MotorA[]={23,22};
+const byte MotorB[]={33,32};
+//Buzzer
+const byte Buzzer=27;
+
 
 //Creación del PWM para la ESP32
 const uint16_t Frecuencia = 5000;
@@ -21,11 +24,7 @@ uint16_t velocidades[]={0,0};
 
 //BLUETOOTH
 
-//#define USE_PIN 
-
-const char *pin = "1234"; 
-
-String device_name = "Kit_2";
+String device_name = "Robokit_A";
 
 #if !defined(CONFIG_BT_ENABLED) || !defined(CONFIG_BLUEDROID_ENABLED)
 #error Bluetooth is not enabled! Please run `make menuconfig` to and enable it
@@ -46,11 +45,7 @@ void setup() {
   
   //Bluetooth
   SerialBT.begin(device_name); //Bluetooth device name
-  Serial.printf("The device with name \"%s\" is started.\nNow you can pair it with Bluetooth!\n", device_name.c_str());
-  #ifdef USE_PIN
-    SerialBT.setPin(pin);
-    Serial.println("Using PIN");
-  #endif
+  Serial.printf("El dispositivo de nombre \"%s\" inició.\nSe puede conectar con Bluetooth!\n", device_name.c_str());
 
   //Inicialización de los Pines para el Control de los Motores
   Inicialiar_Pines();
@@ -61,8 +56,6 @@ void setup() {
 
 void loop() {
   if (SerialBT.available()) {
-
-    
     //Obtención de la variable
     char receivedChar = (char)SerialBT.read();
     Variable = "";
@@ -122,6 +115,11 @@ void loop() {
       ledcWrite(Canales[3],0);
       Serial.println("Stop");
     }
+    if(Variable == "6"){
+      digitalWrite(Buzzer, HIGH);
+      delay(500);
+      digitalWrite(Buzzer, LOW);
+    }
   }
 }
 
@@ -130,6 +128,8 @@ void Inicialiar_Pines(){
   pinMode(MotorA[1],OUTPUT);
   pinMode(MotorB[0],OUTPUT);
   pinMode(MotorB[1],OUTPUT);
+  pinMode(MotorB[1],OUTPUT);
+  pinMode(Buzzer,OUTPUT);
 }
 void CrearPWM(){
   ledcSetup(Canales[0],Frecuencia,Resolucion); 
