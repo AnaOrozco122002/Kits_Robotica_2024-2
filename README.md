@@ -16,9 +16,10 @@
 
 * Se cuenta con un Buzzer que sonará al oprimir el ícono correspondiente.
 
-<center>
+<p align="center">
   <img src="https://raw.githubusercontent.com/AnaOrozco122002/Kits_Robotica_2024-2/master/images/bocina.jpg" alt="Bocina" width="100" height="100">
-</center>
+</p>
+
 
 
 * La aplicación de controlar el robot solo está disponible en Android para versiones mayores a 5.1
@@ -38,7 +39,7 @@ Se utilizan los siguientes pines
 
 - Para la instalación de la aplicación es necesario tener un dispositivo Android, se debe pasar el archivo .APK que se encuentra en la carpeta raiz del repositorio al dispositivo
 
-![](https://github.com/AnaOrozco122002/Kits_Robotica_2024-2/blob/master/images/kits-carpeta-ubicacion.jpg)
+<img src="https://raw.githubusercontent.com/AnaOrozco122002/Kits_Robotica_2024-2/blob/master/images/kits-carpeta-ubicacion.jpg" alt="Bocina" width="100" height="100">
 
 - Posterior a esto al tratar de abrir el archivo se debe aceptar la instalación de fuentes desconocidas (se debe esperar los 10 segundos necesarios y darle a aceptar).
 
