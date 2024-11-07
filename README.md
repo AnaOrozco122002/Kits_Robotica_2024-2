@@ -46,12 +46,12 @@ Se utilizan los siguientes pines
     - Si para instalar la aplicación google play pide que se debe analizar la aplicación debe darle analizar y posterior a esto instalar.
 
     <p align="center">
-    <img src="https://raw.githubusercontent.com/AnaOrozco122002/Kits_Robotica_2024-2/master/images/googlepermiso.jpg" alt="Bocina" width="130" height="300">
+    <img src="https://raw.githubusercontent.com/AnaOrozco122002/Kits_Robotica_2024-2/master/images/googlepermiso.jpg" alt="Bocina" height="300">
     </p>
 
     - Despues de la instalación se debe conectar mediante bluetooth (la interfaz de Android) al kit correspondiente. Una vez conectado mediante la interfaz de android el Kit ya aparecerá en la pestaña de lista bluetooth de la aplicación
 
-* #### Botones
+* ### Botones
 
     La aplicación posee distintos botones que provocarán diferentes acciones en el kit
 
@@ -79,7 +79,7 @@ Se utilizan los siguientes pines
     <img src="https://raw.githubusercontent.com/AnaOrozco122002/Kits_Robotica_2024-2/master/images/bocina.jpg" alt="Bocina" width="100" height="100">
     </p>
 
-* #### Importante
+* ### Importante
 
     - Precionar Varios botones a la vez provocará que la aplicación no funcione correctamente.
     - Al hacer sonar el buzzer el carro no responderá a ningun otro movimiento por la duración de 500 milisegundos.
