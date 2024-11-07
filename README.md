@@ -16,7 +16,8 @@
 
 * Se cuenta con un Buzzer que sonará al oprimir el ícono correspondiente.
 
-![](https://github.com/AnaOrozco122002/Kits_Robotica_2024-2/blob/master/images/bocina.jpg)
+<img src="https://raw.githubusercontent.com/AnaOrozco122002/Kits_Robotica_2024-2/master/images/bocina.jpg" alt="Bocina" width="40" height="30">
+
 
 * La aplicación de controlar el robot solo está disponible en Android para versiones mayores a 5.1
 
