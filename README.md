@@ -33,56 +33,56 @@ Se utilizan los siguientes pines
 ### Aplicación
 ----------------------------------
 
-* ##### Instalación
+* ### Instalación
 
-- Para la instalación de la aplicación es necesario tener un dispositivo Android, se debe pasar el archivo .APK que se encuentra en la carpeta raiz del repositorio al dispositivo
+    - Para la instalación de la aplicación es necesario tener un dispositivo Android, se debe pasar el archivo .APK que se encuentra en la carpeta raiz del repositorio al dispositivo
 
-<p align="center">
-  <img src="https://raw.githubusercontent.com/AnaOrozco122002/Kits_Robotica_2024-2/master/images/kits-carpeta-ubicacion.jpg" alt="Bocina">
-</p>
+    <p align="center">
+    <img src="https://raw.githubusercontent.com/AnaOrozco122002/Kits_Robotica_2024-2/master/images/kits-carpeta-ubicacion.jpg" alt="Bocina">
+    </p>
 
-- Posterior a esto al tratar de abrir el archivo se debe aceptar la instalación de fuentes desconocidas (se debe esperar los 10 segundos necesarios y darle a aceptar).
+    - Posterior a esto al tratar de abrir el archivo se debe aceptar la instalación de fuentes desconocidas (se debe esperar los 10 segundos necesarios y darle a aceptar).
 
-- Si para instalar la aplicación google play pide que se debe analizar la aplicación debe darle analizar y posterior a esto instalar.
+    - Si para instalar la aplicación google play pide que se debe analizar la aplicación debe darle analizar y posterior a esto instalar.
 
-<p align="center">
-  <img src="https://raw.githubusercontent.com/AnaOrozco122002/Kits_Robotica_2024-2/master/images/googlepermiso.jpg" alt="Bocina" width="100" height="300">
-</p>
+    <p align="center">
+    <img src="https://raw.githubusercontent.com/AnaOrozco122002/Kits_Robotica_2024-2/master/images/googlepermiso.jpg" alt="Bocina" width="130" height="300">
+    </p>
 
-- Despues de la instalación se debe conectar mediante bluetooth (la interfaz de Android) al kit correspondiente. Una vez conectado mediante la interfaz de android el Kit ya aparecerá en la pestaña de lista bluetooth de la aplicación
+    - Despues de la instalación se debe conectar mediante bluetooth (la interfaz de Android) al kit correspondiente. Una vez conectado mediante la interfaz de android el Kit ya aparecerá en la pestaña de lista bluetooth de la aplicación
 
-* ##### Botones
+* #### Botones
 
-La aplicación posee distintos botones que provocarán diferentes acciones en el kit
+    La aplicación posee distintos botones que provocarán diferentes acciones en el kit
 
-- Los botones hacia los lados indican que el robot girará al lado correspondiente.
+    - Los botones hacia los lados indican que el robot girará al lado correspondiente.
 
-<p align="center">
-  <img src="https://raw.githubusercontent.com/AnaOrozco122002/Kits_Robotica_2024-2/master/images/lados.jpg" alt="Bocina" width="120" height="100">
-</p>
+    <p align="center">
+    <img src="https://raw.githubusercontent.com/AnaOrozco122002/Kits_Robotica_2024-2/master/images/lados.jpg" alt="Bocina" width="120" height="100">
+    </p>
 
-- El boton superior indica al carro que se moverá hacia adelante, el boton hacia inferior indica que el carro se moverá hacia atrás.
+    - El boton superior indica al carro que se moverá hacia adelante, el boton hacia inferior indica que el carro se moverá hacia atrás.
 
-<p align="center">
-  <img src="https://raw.githubusercontent.com/AnaOrozco122002/Kits_Robotica_2024-2/master/images/adatr.jpg" alt="Bocina" width="100" height="120">
-</p>
+    <p align="center">
+    <img src="https://raw.githubusercontent.com/AnaOrozco122002/Kits_Robotica_2024-2/master/images/adatr.jpg" alt="Bocina" width="100" height="120">
+    </p>
 
-- El boton de lista bluetooth mostrará una interfaz con los dispositivos cercanos (que esten enlazados) a los cuales se puede conectar (se debe conectar al kit correspondiente)
+    - El boton de lista bluetooth mostrará una interfaz con los dispositivos cercanos (que esten enlazados) a los cuales se puede conectar (se debe conectar al kit correspondiente)
 
-<p align="center">
-  <img src="https://raw.githubusercontent.com/AnaOrozco122002/Kits_Robotica_2024-2/master/images/conect.jpg" alt="Bocina" width="350" height="100">
-</p>
+    <p align="center">
+    <img src="https://raw.githubusercontent.com/AnaOrozco122002/Kits_Robotica_2024-2/master/images/conect.jpg" alt="Bocina" width="350" height="100">
+    </p>
 
-- El boton de la bocina provocará que suene el Buzzer.
+    - El boton de la bocina provocará que suene el Buzzer.
 
-<p align="center">
-  <img src="https://raw.githubusercontent.com/AnaOrozco122002/Kits_Robotica_2024-2/master/images/bocina.jpg" alt="Bocina" width="100" height="100">
-</p>
+    <p align="center">
+    <img src="https://raw.githubusercontent.com/AnaOrozco122002/Kits_Robotica_2024-2/master/images/bocina.jpg" alt="Bocina" width="100" height="100">
+    </p>
 
-* ##### Importante
+* #### Importante
 
-- Precionar Varios botones a la vez provocará que la aplicación no funcione correctamente.
-- Al hacer sonar el buzzer el carro no responderá a ningun otro movimiento por la duración de 500 milisegundos.
+    - Precionar Varios botones a la vez provocará que la aplicación no funcione correctamente.
+    - Al hacer sonar el buzzer el carro no responderá a ningun otro movimiento por la duración de 500 milisegundos.
 
 
 
