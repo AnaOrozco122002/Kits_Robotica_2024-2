@@ -20,8 +20,6 @@
   <img src="https://raw.githubusercontent.com/AnaOrozco122002/Kits_Robotica_2024-2/master/images/bocina.jpg" alt="Bocina" width="100" height="100">
 </p>
 
-
-
 * La aplicación de controlar el robot solo está disponible en Android para versiones mayores a 5.1
 
 ### Pines Usados
@@ -39,13 +37,17 @@ Se utilizan los siguientes pines
 
 - Para la instalación de la aplicación es necesario tener un dispositivo Android, se debe pasar el archivo .APK que se encuentra en la carpeta raiz del repositorio al dispositivo
 
-<img src="https://raw.githubusercontent.com/AnaOrozco122002/Kits_Robotica_2024-2/blob/master/images/kits-carpeta-ubicacion.jpg" alt="Bocina" width="100" height="100">
+<p align="center">
+  <img src="https://raw.githubusercontent.com/AnaOrozco122002/Kits_Robotica_2024-2/master/images/kits-carpeta-ubicacion.jpg" alt="Bocina" width="100" height="100">
+</p>
 
 - Posterior a esto al tratar de abrir el archivo se debe aceptar la instalación de fuentes desconocidas (se debe esperar los 10 segundos necesarios y darle a aceptar).
 
 - Si para instalar la aplicación google play pide que se debe analizar la aplicación debe darle analizar y posterior a esto instalar.
 
-![](https://github.com/AnaOrozco122002/Kits_Robotica_2024-2/blob/master/images/google-permiso.jpg)
+<p align="center">
+  <img src="https://raw.githubusercontent.com/AnaOrozco122002/Kits_Robotica_2024-2/master/images/googlepermiso.jpg" alt="Bocina" width="100" height="100">
+</p>
 
 - Despues de la instalación se debe conectar mediante bluetooth (la interfaz de Android) al kit correspondiente. Una vez conectado mediante la interfaz de android el Kit ya aparecerá en la pestaña de lista bluetooth de la aplicación
 
@@ -55,19 +57,27 @@ La aplicación posee distintos botones que provocarán diferentes acciones en el
 
 - Los botones hacia los lados indican que el robot girará al lado correspondiente.
 
-![](https://github.com/AnaOrozco122002/Velocista/blob/master/images/lados.jpg)
+<p align="center">
+  <img src="https://raw.githubusercontent.com/AnaOrozco122002/Kits_Robotica_2024-2/master/images/lados.jpg" alt="Bocina" width="100" height="100">
+</p>
 
 - El boton superior indica al carro que se moverá hacia adelante, el boton hacia inferior indica que el carro se moverá hacia atrás.
 
-![](https://github.com/AnaOrozco122002/Velocista/blob/master/images/adatr.jpg)
+<p align="center">
+  <img src="https://raw.githubusercontent.com/AnaOrozco122002/Kits_Robotica_2024-2/master/images/adatr.jpg" alt="Bocina" width="100" height="100">
+</p>
 
 - El boton de lista bluetooth mostrará una interfaz con los dispositivos cercanos (que esten enlazados) a los cuales se puede conectar (se debe conectar al kit correspondiente)
 
-![](https://github.com/AnaOrozco122002/Velocista/blob/master/images/conect.jpg)
+<p align="center">
+  <img src="https://raw.githubusercontent.com/AnaOrozco122002/Kits_Robotica_2024-2/master/images/conect.jpg" alt="Bocina" width="150" height="700">
+</p>
 
 - El boton de la bocina provocará que suene el Buzzer.
 
-![](https://github.com/AnaOrozco122002/Kits_Robotica_2024-2/blob/master/images/bocina.jpg)
+<p align="center">
+  <img src="https://raw.githubusercontent.com/AnaOrozco122002/Kits_Robotica_2024-2/master/images/bocina.jpg" alt="Bocina" width="100" height="100">
+</p>
 
 * ##### Importante
 
