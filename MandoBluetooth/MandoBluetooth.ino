@@ -8,7 +8,7 @@ String Variable = "";
 bool Estado_Led=false;
 //Motores
 const byte MotorA[]={23,22};
-const byte MotorB[]={33,32};
+const byte MotorB[]={25,26};
 //Buzzer
 const byte Buzzer=27;
 
