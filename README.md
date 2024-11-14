@@ -28,7 +28,7 @@
 Se utilizan los siguientes pines
 
 * Pin para el Buzzer: 27 
-* Pines de control de Dirección: Motor A: 23 y 22, Motor B: 33 y 32
+* Pines de control de Dirección: Motor A: 33 y 32, Motor B: 25 y 26
 
 ### Aplicación
 ----------------------------------

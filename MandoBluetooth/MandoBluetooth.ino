@@ -7,8 +7,8 @@
 String Variable = "";
 bool Estado_Led=false;
 //Motores
-const byte MotorA[]={23,22};
-const byte MotorB[]={25,26};
+const byte MotorA[]={33,32};
+const byte MotorB[]={26,25};
 //Buzzer
 const byte Buzzer=27;
 
@@ -24,7 +24,7 @@ uint16_t velocidades[]={0,0};
 
 //BLUETOOTH
 
-String device_name = "Robokit_A";
+String device_name = "Robokit_COA";
 
 #if !defined(CONFIG_BT_ENABLED) || !defined(CONFIG_BLUEDROID_ENABLED)
 #error Bluetooth is not enabled! Please run `make menuconfig` to and enable it
