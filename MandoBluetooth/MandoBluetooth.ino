@@ -7,8 +7,17 @@
 String Variable = "";
 bool Estado_Led=false;
 //Motores
+
+/*
+//PINES VIEJOS DEL KIT (VERSIÓN 2024)
 const byte MotorA[]={33,32};
 const byte MotorB[]={26,25};
+*/
+
+//PINES NUEVOS (VERSIÓN 2025)
+const byte MotorB[]={16,17};
+const byte MotorA[]={18,19};
+
 //Buzzer
 const byte Buzzer=27;
 
@@ -24,7 +33,7 @@ uint16_t velocidades[]={0,0};
 
 //BLUETOOTH
 
-String device_name = "Robokit_COA";
+String device_name = "Andres_Felipe";
 
 #if !defined(CONFIG_BT_ENABLED) || !defined(CONFIG_BLUEDROID_ENABLED)
 #error Bluetooth is not enabled! Please run `make menuconfig` to and enable it

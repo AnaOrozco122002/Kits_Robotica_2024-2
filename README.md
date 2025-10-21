@@ -20,7 +20,7 @@
   <img src="https://raw.githubusercontent.com/AnaOrozco122002/Kits_Robotica_2024-2/master/images/bocina.jpg" alt="Bocina" width="100" height="100">
 </p>
 
-* La aplicación de controlar el robot solo está disponible en Android para versiones mayores a 5.1
+* La aplicación de controlar el robot solo está disponible en Android para versiones mayores a 8 (la versión vieja de la app para android mayores a 5.1)
 
 ### Pines Usados
 ----------------------------------
@@ -28,7 +28,7 @@
 Se utilizan los siguientes pines
 
 * Pin para el Buzzer: 27 
-* Pines de control de Dirección: Motor A: 33 y 32, Motor B: 25 y 26
+* Pines de control de Dirección: Motor A: 18 y 19, Motor B: 16 y 17
 
 ### Aplicación
 ----------------------------------
@@ -36,6 +36,8 @@ Se utilizan los siguientes pines
 * ### Instalación
 
     - Para la instalación de la aplicación es necesario tener un dispositivo Android, se debe pasar el archivo .APK que se encuentra en la carpeta raiz del repositorio al dispositivo
+
+    - El apk tiene el nombre de Kits_New.apk
 
     <p align="center">
     <img src="https://raw.githubusercontent.com/AnaOrozco122002/Kits_Robotica_2024-2/master/images/kits-carpeta-ubicacion.jpg" alt="Bocina">
@@ -51,7 +53,29 @@ Se utilizan los siguientes pines
 
     - Despues de la instalación se debe conectar mediante bluetooth (la interfaz de Android) al kit correspondiente. Una vez conectado mediante la interfaz de android el Kit ya aparecerá en la pestaña de lista bluetooth de la aplicación
 
-* ### Botones
+    - Las dos versiones de la aplicación se instalan de igual manera
+
+* ### NUEVA
+
+    La aplicación posee distintos botones que provocarán diferentes acciones en el kit
+
+    - Para buscar un dispositivo se debe dar al botón escanear. En esta pantalla se controla el robot
+
+    <p align="center">
+    <img src="https://raw.githubusercontent.com/AnaOrozco122002/Kits_Robotica_2024-2/master/images/App_New.jpg" alt="App" width="120" height="100">
+    </p>
+
+    - Para que el robot se encuentre se debe haber vinculado con este previamente en el apartado de bluetooth del dispositivo (Telefono-Tablet).
+
+    - Para android menor o igual a 11 se debe activar la ubicación, sin esto el dispositivo no saldrá.
+
+    - En el apartado de Config, se puede cambiar los valores que se le esta enviando al robot se puede cambiar oprimiendo el boton guardar. Si se cambian es posible que el robot no funcione, PROCEDA CON PRECAUCIÓN.
+
+    <p align="center">
+    <img src="https://raw.githubusercontent.com/AnaOrozco122002/Kits_Robotica_2024-2/master/images/config.jpg" alt="App" width="120" height="100">
+    </p>
+
+* ### Botones (APLICACION VIEJA)
 
     La aplicación posee distintos botones que provocarán diferentes acciones en el kit
 
