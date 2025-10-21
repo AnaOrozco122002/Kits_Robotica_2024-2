@@ -62,7 +62,7 @@ Se utilizan los siguientes pines
     - Para buscar un dispositivo se debe dar al botón escanear. En esta pantalla se controla el robot
 
     <p align="center">
-    <img src="https://raw.githubusercontent.com/AnaOrozco122002/Kits_Robotica_2024-2/master/images/App_New.jpg" alt="App" width="120" height="100">
+    <img src="https://raw.githubusercontent.com/AnaOrozco122002/Kits_Robotica_2024-2/master/images/App_New.jpg" alt="App" width="350" height="200">
     </p>
 
     - Para que el robot se encuentre se debe haber vinculado con este previamente en el apartado de bluetooth del dispositivo (Telefono-Tablet).
@@ -72,7 +72,7 @@ Se utilizan los siguientes pines
     - En el apartado de Config, se puede cambiar los valores que se le esta enviando al robot se puede cambiar oprimiendo el boton guardar. Si se cambian es posible que el robot no funcione, PROCEDA CON PRECAUCIÓN.
 
     <p align="center">
-    <img src="https://raw.githubusercontent.com/AnaOrozco122002/Kits_Robotica_2024-2/master/images/config.jpg" alt="App" width="120" height="100">
+    <img src="https://raw.githubusercontent.com/AnaOrozco122002/Kits_Robotica_2024-2/master/images/config.jpg" alt="App" width="350" height="200">
     </p>
 
 * ### Botones (APLICACION VIEJA)
